@@ -26,7 +26,7 @@ public class SistemaInstalacion {
             System.out.println("1. Solicitar instalacion de impresora");
             System.out.println("2. Solicitar instalacion de router");
             System.out.println("3. Solicitar instalacion de software");
-            System.out.println("0. Salir");
+            System.out.println("4. Salir");
             System.out.print("Seleccione una opcion: ");
             opcion = scanner.nextInt();
 
@@ -36,7 +36,7 @@ public class SistemaInstalacion {
                 case 1: solicitudSeleccionada = impresora; break;
                 case 2: solicitudSeleccionada = router; break;
                 case 3: solicitudSeleccionada = software; break;
-                case 0: System.out.println("Saliendo del sistema."); break;
+                case 4: System.out.println("Saliendo del sistema."); break;
                 default: System.out.println("Opcion no valida."); continue;
             }
 
@@ -52,7 +52,7 @@ public class SistemaInstalacion {
                 }
             }
 
-        } while (opcion != 0);
+        } while (opcion != 4);
 
         scanner.close();
     }
