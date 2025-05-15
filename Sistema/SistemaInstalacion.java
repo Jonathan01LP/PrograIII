@@ -6,7 +6,7 @@ public class SistemaInstalacion {
 
         SolicitudInstalacion impresora = new SolicitudInstalacion(
             2001, "Instalacion de una impresora",
-            "→ La instalacion de la impresora esta en proceso. Uno de nuestros tecnicos lo contactara pronto."
+            " La instalacion de la impresora esta en proceso. Uno de nuestros tecnicos lo contactara pronto."
         );
 
         SolicitudInstalacion router = new SolicitudInstalacion(
@@ -16,7 +16,7 @@ public class SistemaInstalacion {
 
         SolicitudInstalacion software = new SolicitudInstalacion(
             2018, "Instalacion de un software",
-            "→ El software solicitado será instalado de forma remota en los proximos 30 minutos."
+            " El software solicitado será instalado de forma remota en los proximos 30 minutos."
         );
 
         int opcion;
