@@ -12,6 +12,7 @@ public class ADMInistrativa {
             System.out.println("Numero no corresponde al procedimeinto que se desea realizar");
         }
     }
+    
 
     public void asusencias(){
         Scanner automatico = new Scanner(System.in);
